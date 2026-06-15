@@ -1,0 +1,12 @@
+{
+  "name": "eleven-fc-store",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "wrangler pages dev .",
+    "deploy": "wrangler pages deploy . --project-name=eleven-fc-store --commit-dirty=true"
+  },
+  "devDependencies": {
+    "wrangler": "^4"
+  }
+}
